@@ -30,7 +30,7 @@ module.exports = {
         buttonborder: "#E3D3C0"
       },
       backgroundImage: {
-        pattern: "url('/src/images/Vector.svg')",
+        pattern: "url('/src/assets/heroimage')",
       },
     },
   },
