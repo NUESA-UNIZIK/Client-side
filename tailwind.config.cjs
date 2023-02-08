@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      primary: "Manrope",
+      primary: "Inter",
     },
     container: {
       padding: {
