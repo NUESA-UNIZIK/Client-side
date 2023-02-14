@@ -11,7 +11,7 @@ module.exports = {
     container: {
       padding: {
         DEFAULT: "2.5rem",
-        // lg: '3rem',
+        lg: '3rem',
       },
     },
     screens: {
@@ -30,7 +30,8 @@ module.exports = {
         buttonborder: "#E3D3C0"
       },
       backgroundImage: {
-        pattern: "url('/src/assets/heroimage')",
+        pattern: "url('/src/assets/heroimage.svg')",
+        courses: "url('/src/assets/coursesbackground.svg')",
       },
     },
   },
