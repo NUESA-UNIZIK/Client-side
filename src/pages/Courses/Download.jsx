@@ -143,3 +143,5 @@ export const Download = () => {
     </>
   );
 };
+
+export default Download

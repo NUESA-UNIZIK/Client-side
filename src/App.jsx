@@ -1,11 +1,11 @@
 import {BrowserRouter as Router,Routes, Route} from "react-router-dom"
 import Home from "./pages/Home";
-import { FacultyBio } from "./pages/FacultyBio/Facultybio";
-import { Gallery } from "./pages/FacultyBio/Gallery";
-import { NewsEvent } from "./pages/News/NewsEvent";
-import { Courses } from "./pages/Courses/Courses";
-import { Download } from "./pages/Courses/Download";
-import { YearTwoCourse } from "./pages/Courses/YearTwoCourses";
+import  FacultyBio  from "./pages/FacultyBio/Facultybio";
+import  Gallery  from "./pages/FacultyBio/Gallery";
+import  NewsEvent  from "./pages/NewsEvents/NewsEvent";
+import  Courses  from "./pages/Courses/Courses";
+import  Download  from "./pages/Courses/Download";
+import  YearTwoCourse  from "./pages/Courses/YearTwoCourses";
 
 function App() {
   return (
