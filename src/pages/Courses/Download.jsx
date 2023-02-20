@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 export const Download = () => {
   return (
     <>
-      <div className=" overflow-x-hidden">
-        <div className=" text-center py-[30px] bg-cover z-[10] fixed top-0  right-0 left-0  bg-[url('/src/assets/heroimage.svg')]">
+      <div className=" md:container overflow-x-hidden">
+        <div className=" text-center py-[30px] bg-cover z-[10] fixed top-0  right-0 left-0  bg-[url('/src/assets/circuitlines.jpg')]">
           <h1 className="text-[48px] text-white uppercase relative  font-[700] ">
             Courses
           </h1>
@@ -46,12 +46,12 @@ export const Download = () => {
                 200L ELECTRONICS & COMPUTER ENGINEERING
               </h1>
             </div>
+            <h2 className="font-[600] px-[20px] text-[20px] text-[#000000]">
+              Polyphase Sysmtem
+            </h2>
             <div className="px-[20px] flex flex-col gap-[40px]">
               <div className="flex flex-col gap-[20px] md:flex-row items-start md:items-end justify-between">
-                <ul className="">
-                  <h2 className="font-[600] text-[20px] text-[#000000]">
-                    Polyphase Sysmtem
-                  </h2>
+                <ul className="list-disc px-6 items-center">
                   <li>Two phase and three phase systems.</li>
                   <li>Star and delta connected loads.</li>
                   <li>Power in three phase systems. </li>
@@ -144,4 +144,4 @@ export const Download = () => {
   );
 };
 
-export default Download
+export default Download;

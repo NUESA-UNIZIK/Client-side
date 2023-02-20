@@ -8,7 +8,7 @@ export const YearTwoCourse = () => {
   return (
     <>
       <div className=" overflow-x-hidden">
-        <div className=" text-center py-[30px] bg-cover fixed top-0 left-0 right-0 left-0  bg-[url('/src/assets/heroimage.svg')]">
+        <div className=" text-center py-[30px] bg-cover fixed top-0 left-0 right-0  bg-[url('/src/assets/circuitlines.jpg')]">
           <h1 className="text-[48px] text-white uppercase relative  font-[700] ">
             Courses
           </h1>
