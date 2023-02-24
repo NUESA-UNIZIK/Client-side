@@ -6,6 +6,7 @@ import  NewsEvent  from "./pages/NewsEvents/NewsEvent";
 import  Courses  from "./pages/Courses/Courses";
 import  Download  from "./pages/Courses/Download";
 import  YearTwoCourse  from "./pages/Courses/YearTwoCourses";
+import Achievements from "./pages/Achievementspage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/newsevent" element={<NewsEvent/>} />
           <Route path="/courses" element={<Courses/>} />
           <Route path="/yeartwo" element={<YearTwoCourse/>} />
+          <Route path="/achievement" element={<Achievements/>} />
           <Route path="/download" element={<Download/>} />
         </Routes>
       </Router>

@@ -68,12 +68,16 @@ const Navbar = () => {
               >
                 NEWS/EVENTS
               </Link>
-              <li className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">
-                ADMISSION
-              </li>
-              <li className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">
-                ACHIEVEMENTS
-              </li>
+              <Link to=''>
+                <li className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">
+                  ADMISSION
+                </li>
+              </Link>
+              <Link to='/achievement'>
+                <li className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">
+                  ACHIEVEMENTS
+                </li>
+              </Link>
               <li className="bg-primary px-6 py-2 font-semibold rounded-md text-[16px]">
                 LOGIN/SIGNUP
               </li>
