@@ -9,7 +9,7 @@ export const FacultyBio = () => {
   return (
     <>
       <div className=" overflow-x-hidden">
-        <div className=" text-center py-[30px] bg-cover  bg-[url('/src/assets/heroimage.svg')] fixed left-0 right-0 top-0">
+        <div className=" text-center py-[30px] bg-cover  bg-[url('/src/assets/circuitlines.jpg')] fixed left-0 right-0 top-0">
           <h1 className="text-[48px] text-white uppercase relative  font-[700] ">
             Faculty Bio
           </h1>
@@ -147,3 +147,4 @@ export const FacultyBio = () => {
     </>
   );
 };
+
