@@ -27,8 +27,8 @@ const Navbar = () => {
             <Link to='/courses' className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">COURSES</Link>
             <Link to='/facultybio' className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">FACULTY BIO</Link>
             <Link to='/newsevent' className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">NEWS/EVENTS</Link>
-            <li className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">ADMISSION</li>
-            <li className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">ACHIEVEMENTS</li>
+            <a className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">ADMISSION</a>
+            <a className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">ACHIEVEMENTS</a>
             <li className="bg-primary px-6 py-2 font-semibold rounded-md text-[16px]">LOGIN/SIGNUP</li>
           </ul>
         </nav>

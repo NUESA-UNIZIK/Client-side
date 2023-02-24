@@ -29,7 +29,7 @@ export const NewsEvent = () => {
    <p className="font-[400] text-[16px] text-[#000000] ">Omnis maiores velit culpa sed corporis cum exercitationem sit eum. Ea veritatis et nihil corporis nobis rem ratione quia nemo.</p>
    
     </div>
-   <a className="text-[16px] font-[700] leading-[150%] rounded-[8px] text-[#092E76] py-[8px] px-[12px] border ">Read More</a>
+   <Link to='/nuesa' className="text-[16px] font-[700] leading-[150%] rounded-[8px] text-[#092E76] py-[8px] px-[12px] border ">Read More</Link>
    </div>
   
         </div>
