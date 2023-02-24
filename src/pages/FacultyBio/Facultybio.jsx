@@ -148,4 +148,3 @@ export const FacultyBio = () => {
   );
 };
 
-export default  FacultyBio
