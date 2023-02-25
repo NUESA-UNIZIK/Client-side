@@ -1,8 +1,11 @@
 import React from "react";
 import { IoIosArrowForward, IoMdSearch } from "react-icons/io";
 import { Link } from "react-router-dom";
+import staffImg from '../../assets/staffimage.svg';
+import { StaffConntent } from "./StaffContent";
 
-export const Staff = () => {
+
+export const Staff = (props) => {
   return (
     <>
       <div className=" overflow-x-hidden">
@@ -28,36 +31,38 @@ export const Staff = () => {
               Staff
             </Link>
           </div>
-
-          <div className="flex flex-row rounded-[8px] border px-[16px] py-[12px] gap-[10px] justify-between ">
+       <div className="flex  justify-center">
+       <div className="flex flex-row rounded-[8px] border px-[16px] py-[12px] gap-[10px] justify-between ">
             <input type="search" placeholder="Search.." name="search" id="" />{" "}
             <IoMdSearch />
           </div>
-          <div className="flex flex-cols justify-center items-center">
+       </div>
+         
+          <div className="flex flex-col justify-center items-center">
             <div className="flex flex-row items-center px-[12px] gap-[6px] justify-center py-[8px]  ">
               <h1 className="text-[16px] leading-[150%] font-[600] text-[#ffffff] bg-primary rounded-[8px] px-[12px] py-[8px]">
                 FACULTY
               </h1>
               <p className="font-[600] text-[16px]  leading-[150%] text-primary bg-[#FFEFE6]  rounded-[8px] px-[12px] py-[8px] border-[#FFEFE5] ">
-                E E
+              Electrical
               </p>
               <p className="font-[600] text-[16px]  leading-[150%] text-primary bg-[#FFEFE6]  rounded-[8px] px-[12px] py-[8px] border-[#FFEFE5] ">
-                ECE
+              Electronics & Comp
               </p>
               <p className="font-[600] text-[16px]  leading-[150%] text-primary bg-[#FFEFE6] rounded-[8px] px-[12px] py-[8px] border-[#FFEFE5] ">
-                CVE
+              Civil
               </p>
               <p className="font-[600] text-[16px]  leading-[150%] text-primary bg-[#FFEFE6]  rounded-[8px] px-[12px] py-[8px] border-[#FFEFE5] ">
-                MCE
+              Mechanical
               </p>
               <p className="font-[600] text-[16px]  leading-[150%] text-primary bg-[#FFEFE6]  rounded-[8px] px-[12px] py-[8px] border-[#FFEFE5] ">
-                CHE
+              Chemical
               </p>
               <p className="font-[600] text-[16px]  leading-[150%] text-primary bg-[#FFEFE6] rounded-[8px] px-[12px] py-[8px] border-[#FFEFE5] ">
                 MME
               </p>
               <p className="font-[600] text-[16px]  leading-[150%] text-primary bg-[#FFEFE6] rounded-[8px] px-[12px] py-[8px] border-[#FFEFE5] ">
-                PTE
+                Petroleum
               </p>
               <p className="font-[600] text-[16px]  leading-[150%] text-primary bg-[#FFEFE6]  rounded-[8px] px-[12px] py-[8px] border-[#FFEFE5] ">
                 IPE
@@ -66,7 +71,7 @@ export const Staff = () => {
                 ABE
               </p>
               <p className="font-[600] text-[16px]  leading-[150%] text-primary bg-[#FFEFE6] rounded-[8px] px-[12px] py-[8px] border-[#FFEFE5] ">
-                PE
+                PTE
               </p>
             </div>
             <div className="flex flex-row items-center px-[12px] gap-[6px] justify-center py-[8px]  ">
@@ -81,6 +86,9 @@ export const Staff = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className=" px-[20px] gap-[20px] py-[40px] grid grid-cols-4">
+         <StaffConntent/>
         </div>
       </div>
     </>

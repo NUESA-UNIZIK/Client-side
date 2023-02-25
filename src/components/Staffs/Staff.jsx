@@ -1,5 +1,6 @@
 import React from "react";
 import Staffimage from '../../assets/staffimage.svg'
+import { Link } from "react-router-dom";
 
 const Staff = () => {
   return (
@@ -12,9 +13,9 @@ const Staff = () => {
           </div>
 
           <div className="mt-4 hidden xl:inline">
-            <button className="text-primary border-[1.5px] px-4 py-1 rounded-md md:text-[16px] text-[14px] font-bold border-buttonborder border-solid">
+            <Link to='/allStaff' className="text-primary border-[1.5px] px-4 py-1 rounded-md md:text-[16px] text-[14px] font-bold border-buttonborder border-solid">
               View more
-            </button>
+            </Link>
           </div>
         </div>
         
@@ -46,9 +47,9 @@ const Staff = () => {
         </div>
 
         <div className="xl:hidden text-center mt-6 mx-auto">
-          <button className="text-primary border-[1.5px] md:px-4 md:py-1 py-2 px-3 md:text-[16px] text-[14px] md:rounded-md rounded-lg font-bold border-buttonborder border-solid">
+          <Link to='/allStaff' className="text-primary border-[1.5px] md:px-4 md:py-1 py-2 px-3 md:text-[16px] text-[14px] md:rounded-md rounded-lg font-bold border-buttonborder border-solid">
             All staff
-          </button>
+          </Link>
         </div>
       </div>
     </div>

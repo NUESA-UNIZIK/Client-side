@@ -26,7 +26,7 @@ function App() {
           <Route path="/download" element={<Download/>} />
           <Route path="/download" element={<DownloadResources/>} />
           <Route path="/nuesa" element={<Nuesa/>} />
-          <Route path="/staff" element={<Staff/>} />
+          <Route path="/allStaff" element={<Staff/>} />
         </Routes>
       </Router>
     </>
