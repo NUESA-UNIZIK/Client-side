@@ -10,7 +10,7 @@ import  {YearTwoCourse}  from "./pages/Courses/YearTwoCourses";
 import  {Nuesa}  from "./pages/News/Nuesa";
 import  {DownloadResources}  from "./pages/Courses/DownloadResources";
 import  {Staff}  from "./pages/Staff/Staff";
-
+import { FEG } from "./pages/Courses/FEG201";
 function App() {
   return (
     <>
@@ -23,10 +23,11 @@ function App() {
           <Route path="/courses" element={<Courses/>} />
           <Route path="/yeartwo" element={<YearTwoCourse/>} />
           <Route path="/achievement" element={<Achievements/>} />
-          <Route path="/download" element={<Download/>} />
+          <Route path="/downloa" element={<Download/>} />
           <Route path="/download" element={<DownloadResources/>} />
           <Route path="/nuesa" element={<Nuesa/>} />
           <Route path="/allStaff" element={<Staff/>} />
+         <Route path="/feg" element={<FEG/>} />
         </Routes>
       </Router>
     </>

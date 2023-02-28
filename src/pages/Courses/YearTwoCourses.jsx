@@ -46,10 +46,10 @@ export const YearTwoCourse = () => {
           </h1>
         </div>
         <div className=" flex flex-col md:flex-row justify-center p-[30px] items-start gap-[30px] ">
-          <div className="gap-[17px] p-0 flex flex-col items-start ">
+          <div className="gap-[17px] p-0 flex justify-center flex-col items-start ">
             <h3 className="font-[700] text-[20px]  ">Courses</h3>
 
-            <div className="bg-[#FAF8F8] rounded-[8px] min-w-[300px] py-[12px] px-[16px] gap-[10px] flex flex-row items-center justify-between ">
+            <div className="bg-[#FAF8F8] rounded-[8px] min-w-[300px] py-[12px] px-[16px] gap-[10px] flex flex-row items-center  justify-between ">
               <div className="">
                 <h1 className="font-[700]  text-[#000000] text-[24px] ">
                   FEG 201
