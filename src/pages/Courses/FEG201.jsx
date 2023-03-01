@@ -48,7 +48,7 @@ export const FEG = () => {
           
             <div className="flex flex-col gap-[20px] items-center px-[20px]">
                 <div className="flex flex-col justify-center items-center">
-                <h1 className="font-[700] mt-[10px] text-[20px] md:text-[24px] text-darkest  ">
+                <h1 className="font-[700] mt-[10px] text-center text-[17px] md:text-[20px] md:text-[24px] text-darkest  ">
                 200L ELECTRONICS & COMPUTER ENGINEERING
               </h1>
              <h2 className="text-primary font-[800] text-[30px]">FEG201</h2>
