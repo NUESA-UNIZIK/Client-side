@@ -1,11 +1,12 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 
 
 export const YeartwoDesktop = () => {
     return(
-        <div className=" flex flex-col md:hidden justify-center p-[30px] items-start gap-[30px] ">
+        <div className=" hidden flex-row md:flex justify-center p-[30px] items-start gap-[30px] ">
         <div className="gap-[17px] p-0 flex justify-center flex-col items-start ">
           <h3 className="font-[700] text-[20px]  ">Courses</h3>
 
@@ -104,14 +105,15 @@ export const YeartwoDesktop = () => {
           <div className="flex flex-row justify-between items-center">
             <h1 className="font-[700] text-[20px]  ">Topics</h1>
             <Link
-              to="/download"
+              to="/feg"
               className="text-primary px-[12px] py-[8px]  border font-[700] rounded-[8px]  "
             >
               Download Resources
             </Link>
           </div>
           <div className="bg-[#FAF8F8]  px-[37px] py-[25px]  ">
-            <div className="flex flex-col items-start gap-[10px] ">
+          <Link to='/download'>
+          <div className="flex flex-col items-start gap-[10px] ">
               <h2 className="text-[20px] font-[500] text-[#000000] ">
                 1. Polyphase systems
               </h2>
@@ -121,6 +123,8 @@ export const YeartwoDesktop = () => {
                 applied to balance loads.
               </p>
             </div>
+          </Link>
+           
 
             <div className="flex flex-col items-start gap-[10px] ">
               <h2 className="text-[20px] font-[500] text-[#000000] ">

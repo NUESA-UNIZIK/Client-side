@@ -42,12 +42,17 @@ export const FacultyBio = () => {
                 History
               </h1>
               <div>
-                <p className="leading-[24px] font-[400] text-[16px] ">
+                <p className="leading-[24px] font-[400] flex flex-col gap-[20px] text-[16px] ">
+                  <span>
                   Nnamdi Azikiwe University has a strong Faculty of Engineering,
                   which started at the inception of the University in 1992. The
                   Faculty is being developed to acquire the status of a leading
-                  Faculty of Engineering in the country. Philosophy of the
-                  Faculty To achieve the goals and objectives of the National
+                  Faculty of Engineering in the country.
+                  </span>
+                  <span>
+                 <h1 className="text-[20px] font-[700] my-[10px] text-darkest ">Philosophy of the
+                  Faculty </h1> 
+                  To achieve the goals and objectives of the National
                   Policy on Industrialization and self reliance, the Faculty of
                   Engineering and Technology is geared toward a. The development
                   of indigenous manpower through practice of engineering and
@@ -58,7 +63,10 @@ export const FacultyBio = () => {
                   goals are the production of graduates of high academic quality
                   and adequate practical background for self employment and
                   global industrialization.
+                  </span>
+
                 </p>
+                
               </div>
             </div>
             <div>
@@ -74,23 +82,25 @@ export const FacultyBio = () => {
                 </Link>
               </div>
               <div className="flex flex-row items-center  justify-center my-[20px]  gap-[30px] ">
-                <div className="flex flex-row gap-[14px]  overflow-x-hidden w-[699px]">
-                  <img src={newspaper} className="w-[183px]" alt="" />
-                  <img src={newspaper} className="w-[183px]" alt="" />
+                <div className="grid md:grid-cols-4 lg:flex gap-[20px] grid-cols-3 overflow-x-hidden w-[699px]">
+                  <img src={newspaper} className="lg:w-[170px] rounded" alt="" />
+                  <img src={newspaper} className="lg:w-[170px] rounded" alt="" />
                   <img
                     src={newspaper}
-                    className="w-[183px] hidden md:block"
+                    className="lg:w-[170px] rounded"
                     alt=""
                   />
                   <img
                     src={newspaper}
-                    className="w-[183px] hidden md:block"
+                    className="lg:w-[170px] rounded"
                     alt=""
                   />
+                  <img src={newspaper} className="rounded" alt="" />
+                  <img src={newspaper} className=" rounded" alt="" />
                 </div>
 
                 <p className="font-[700] text-[16px] hidden xl:block  cursor-pointer">
-                  <IoIosArrowForward />
+                  <IoIosArrowForward  className="text-[30px]"/>
                 </p>
               </div>
             </div>

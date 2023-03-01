@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IoIosArrowForward } from 'react-icons/io';
+import { Link } from "react-router-dom";
 
 export const YeartwoMobile = (props)  => {
     const [showTopics, setShowTopics] = useState(false);
@@ -27,9 +28,13 @@ export const YeartwoMobile = (props)  => {
               <IoIosArrowForward />
             </div>
           </div>
+          
           {showTopics && 
           <div onClick={handleHideTopics} className="fixed px-[20px] flex justify-center top-0 left-0 right-0  bg-transparent bottom-0 py-[10px]  ">
+
           <div className="bg-[#FAF8F8] absolute  px-[37px]  h-[80vh] py-[25px] rounded-2xl top-[80px] overflow-y-scroll max-w-[350px] ">
+            <h1 className="text-[20px] font-[600] my-[10px] ">Topics</h1>
+            <Link to='/download'>
             <div className="flex flex-col items-start gap-[10px] ">
               <h2 className="text-[20px] font-[500] text-[#000000] ">
               {props.topic1H}
@@ -38,6 +43,8 @@ export const YeartwoMobile = (props)  => {
                {props.topic1D}
               </p>
             </div>
+            </Link>
+           
 
             <div className="flex flex-col items-start gap-[10px] ">
               <h2 className="text-[20px] font-[500] text-[#000000] ">
@@ -84,7 +91,7 @@ export const YeartwoMobile = (props)  => {
               </p>
             </div>
           </div>
-        
+          
           </div>
 }
    </div>
