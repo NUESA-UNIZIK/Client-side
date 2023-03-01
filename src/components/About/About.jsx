@@ -3,7 +3,7 @@ import Aboutimage from "../../assets/about.svg";
 
 const About = () => {
   return (
-    <div className="xl:mx-[6rem] md:mt-[16rem]">
+    <div className="xl:mx-[6rem] md:mt-[4rem]">
       <div className="md:flex lg:flex-row sm:flex-row gap-2">
         <div className="md:w-[50%] mx-6 md:px-0">
           <h1 className="font-bold md:text-[24px] text-[18px] md:mb-1">

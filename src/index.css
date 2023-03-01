@@ -5,3 +5,13 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../src/assets/selecticon.svg");
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 15px; 
+}

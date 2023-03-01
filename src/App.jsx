@@ -10,6 +10,8 @@ import  {YearTwoCourse}  from "./pages/Courses/YearTwoCourses";
 import  {Nuesa}  from "./pages/News/Nuesa";
 import  {DownloadResources}  from "./pages/Courses/DownloadResources";
 import  {Staff}  from "./pages/Staff/Staff";
+import Signup from "./pages/Register/Signup";
+import Login from "./pages/Register/Login";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/download" element={<DownloadResources/>} />
           <Route path="/nuesa" element={<Nuesa/>} />
           <Route path="/staff" element={<Staff/>} />
+          <Route path="/register" element={<Signup/>} />
+          <Route path="/login" element={<Login/>} />
         </Routes>
       </Router>
     </>

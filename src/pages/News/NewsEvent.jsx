@@ -101,7 +101,7 @@ export const NewsEvent = () => {
 
         <div className="flex flex-col items-start gap-[30px] w-[368px]">
           <div className="flex flex-row rounded-[8px] border px-[16px] py-[12px] gap-[10px] justify-between ">
-            <input type="search" placeholder="Search.." name="" id="" />{" "}
+            <input type="search" placeholder="Search.." name="" className="focus:outline-none" id="" />{" "}
             <IoMdSearch />
           </div>
           <div className="flex flex-col items-start ">
