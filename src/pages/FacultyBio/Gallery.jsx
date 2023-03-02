@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import img from "../../assets/newsimage.svg";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { picsArray } from "./GalleryContent";
 
 export const Gallery = () => {
+  const [index, setIndex] = useState(0);
+  const getLength = picsArray.length;
+  const picSrc = picsArray[index];
+  const handleNextClick = () => {
+    
+     if (getLength - 1 === index) {
+      setIndex(0);
+
+     } else {
+      setIndex(index + 1)
+     }
+  
+  }
+  const handPrevClick = () => {
+    if (getLength - getLength === index) {
+      setIndex(0)
+    } else {
+      setIndex(index - 1)
+    }
+  }
   return (
     <>
       <div className=" overflow-x-hidden">
@@ -44,23 +65,36 @@ export const Gallery = () => {
         </div>
       </div>
       <div className=" px-[20px] py-[30px]">
-        <div className="flex gap-[50px]  flex-row justify-center items-center align-center">
-          <IoIosArrowBack />
+        <div className="flex md:gap-[50px] gap-[20px]  flex-row justify-center items-center align-center">
+          <IoIosArrowBack onClick={handPrevClick} className="font-[500] text-[40px] "/>
           <img
-            className="w-[311px] md:w-[600px] h-[421px] "
-            src={img}
+            className=" "
+            src={picSrc.img}
             alt=""
             srcset=""
           />
-          <IoIosArrowForward className="font-bold" />
+          <IoIosArrowForward onClick={handleNextClick} className="font-[500] text-[40px] " />
         </div>
-        <div className="flex  justify-center  items-center">
-          <p className=" text-[16px] leading-[24px] text-center  font-[400] ">
-            Est sit numquam qui nisi id non eius facere. Ipsa commodi
-            accusantium quo tempora quibusdam.{" "}
-          </p>
+        <div className="flex  justify-center my-[20px]  items-center">
+          <p className=" text-[16px] leading-[24px] text-center max-w-[500px]  font-[400] ">
+         {picSrc.content}
+         </p>
         </div>
+        <div className="grid md:grid-cols-4 grid-cols-3 lg:grid-cols-6 gap-[10px] ">
+         
+        {picsArray.map((getPic) => (
+        <img src={getPic.img} alt="" className={`rounded-[5px] border `}/>
+     
+         ))}
+            </div>
       </div>
+      <div className="flex justify-center md:hidden items-center pb-[30px] md:gap-[30px] gap-[10px] flex-row">
+    <button className="font-[500] md:text-[16px] text-[14px]  text-darkes ">Previous</button>
+    <button className="md:px-[17px] md:py-[12px] px-[14px] py-[8px] rounded-[8px] md:text-[16px] text-[12px]  text-[#fff] bg-primary ">1</button>
+    <button className="md:px-[17px] md:py-[12px] px-[14px] py-[8px] rounded-[8px] md:text-[16px] text-[12px] text-darkest bg-[#EDEAE6] ">2</button>
+    <button className="md:px-[17px] md:py-[12px] px-[14px] py-[8px] rounded-[8px] md:text-[16px] text-[12px] text-darkest bg-[#EDEAE6] ">3</button>
+    <button className="font-[500] md:text-[16px] text-[14px]  text-darkes ">Next</button>
+</div>
     </>
   );
 };

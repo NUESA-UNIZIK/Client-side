@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Handouts from "../../assets/thermo.png";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 export const Download = () => {
+  const [uploadHandout, setUploadHandout] = useState(false);
   return (
     <>
       <div className=" md:container overflow-x-hidden">
@@ -42,7 +43,7 @@ export const Download = () => {
 
           <div>
             <div className="flex flex-col items-between px-[20px]">
-              <h1 className="font-[700] text-[24px] text-[#FA4F06]  ">
+              <h1 className="font-[700] my-[20px] text-[20px] md:text-[24px] text-[#FA4F06]  ">
                 200L ELECTRONICS & COMPUTER ENGINEERING
               </h1>
             </div>
@@ -57,84 +58,85 @@ export const Download = () => {
                   <li>Power in three phase systems. </li>
                   <li>Two wattmeter method applied to balance loads.</li>
                 </ul>
-                <button className="text-[16px] font-[600] text-[#FA4F06] px-[12px] border rounded-[8px] py-[8px] ">
+              {uploadHandout &&  <button className="text-[16px] font-[600] text-[#FA4F06] px-[12px] border rounded-[8px] py-[8px] ">
                   Upload Handouts
-                </button>
+                </button>}
               </div>
 
-              <div className="flex gap-[10px] flex-col md:flex-row justify-between ">
-                <div className="flex flex-col items-center gap-[20px] ">
+              <div className="gap-[20px] grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pb-[20px]">
+                <div className="flex flex-col items-center gap-[5px] ">
                   <div className="relative rounded-[8px] p-0">
                     <img
-                      className="w-[269px] rounded-[8px] h-[271px]  "
+                      className=" p-0 rounded-[8px]   "
                       src={Handouts}
                       alt=""
                     />
-                    <p className="absolute font-semibold text-center py-[15px] text-[white] backdrop bg-[black] opacity-[80%] z-index-3 bottom-0 w-[100%] ">
+                    <p className="absolute font-semibold text-[14px] text-center py-[15px] text-[white] backdrop bg-[black] opacity-[80%] z-3 bottom-0 w-[100%] ">
                       Polyohase.pdf
                     </p>
                   </div>
                   <a
                     href="http://"
-                    className="text-center w-[269px] bg-primary p-[10px] text-secondary rounded-[8px] "
+                    className="text-center text-[14px] w-full border-[2px]  bg-white  p-[10px] text-darkest rounded-[8px] "
                   >
                     Download (4MB)
                   </a>
                 </div>
-                <div className="flex flex-col items-center gap-[20px] ">
+                <div className="flex flex-col items-center gap-[5px] ">
                   <div className="relative rounded-[8px] p-0">
                     <img
-                      className="w-[269px] h-[271px]  "
+                      className=" p-0 rounded-[8px]   "
                       src={Handouts}
                       alt=""
                     />
-                    <p className="absolute font-semibold text-center py-[15px] text-[white] backdrop bg-[black] opacity-[80%] z-index-3 bottom-0 w-[100%] ">
+                    <p className="absolute font-semibold text-[14px] text-center py-[15px] text-[white] backdrop bg-[black] opacity-[80%] z-3 bottom-0 w-[100%] ">
                       Polyohase.pdf
                     </p>
                   </div>
                   <a
                     href="http://"
-                    className="text-center w-[269px] bg-primary p-[10px] text-secondary rounded-[8px] "
+                    className="text-center text-[14px] w-full border-[2px]  bg-white  p-[10px] text-darkest rounded-[8px] "
                   >
                     Download (4MB)
                   </a>
                 </div>
-                <div className="flex flex-col items-center gap-[20px] ">
+                <div className="flex flex-col items-center gap-[5px] ">
                   <div className="relative rounded-[8px] p-0">
                     <img
-                      className="w-[269px] rounded-[8px] h-[271px]  "
+                      className=" p-0 rounded-[8px]   "
                       src={Handouts}
                       alt=""
                     />
-                    <p className="absolute font-semibold text-center py-[15px] text-[white] backdrop bg-[black] opacity-[80%] z-index-3 bottom-0 w-[100%] ">
+                    <p className="absolute font-semibold text-[14px] text-center py-[15px] text-[white] backdrop bg-[black] opacity-[80%] z-3 bottom-0 w-[100%] ">
                       Polyohase.pdf
                     </p>
                   </div>
                   <a
                     href="http://"
-                    className="text-center w-[269px] bg-primary p-[10px] text-secondary rounded-[8px] "
+                    className="text-center text-[14px] w-full border-[2px]  bg-white  p-[10px] text-darkest rounded-[8px] "
                   >
                     Download (4MB)
                   </a>
                 </div>
-                <div className="flex flex-col  items-center gap-[20px] ">
+                <div className="flex flex-col items-center gap-[5px] ">
                   <div className="relative rounded-[8px] p-0">
                     <img
-                      className="w-[269px] rounded-[8px] h-[271px]  "
+                      className=" p-0 rounded-[8px]   "
                       src={Handouts}
                       alt=""
                     />
-                    <p className="absolute font-semibold text-center py-[15px] text-[white] backdrop bg-[black] opacity-[80%] z-index-3 bottom-0 w-[100%] ">
+                    <p className="absolute font-semibold text-[14px] text-center py-[15px] text-[white] backdrop bg-[black] opacity-[80%] z-3 bottom-0 w-[100%] ">
                       Polyohase.pdf
                     </p>
                   </div>
                   <a
                     href="http://"
-                    className="text-center w-[269px] bg-primary p-[10px] text-secondary rounded-[8px] "
+                    className="text-center text-[14px] w-full border-[2px]  bg-white  p-[10px] text-darkest rounded-[8px] "
                   >
                     Download (4MB)
                   </a>
                 </div>
+                
               </div>
             </div>
           </div>
