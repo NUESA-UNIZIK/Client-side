@@ -46,7 +46,7 @@ const News = () => {
               </div>
             </div>
 
-            <div className="rounded-[12px]  bg-white drop-shadow-2xl md:w-[100%] xl:w-[730px] w-[324px]   mt-8 md:h-[230px] h-[114px] px-2 py-2 flex gap-3 md:gap-6">
+            <div className="rounded-[12px]  bg-white drop-shadow-2xl md:w-[100%] xl:w-[730px] w-[324px]   mt-4 md:h-[230px] h-[114px] px-2 py-2 flex gap-3 md:gap-6">
               <div className="hidden md:block">
                 <img
                   src={Newsimage}
@@ -81,7 +81,7 @@ const News = () => {
               </div>
             </div>
 
-            <div className="rounded-[12px]  bg-white drop-shadow-2xl md:w-[100%] xl:w-[730px] w-[324px]   mt-8 md:h-[230px] h-[114px] px-2 py-2 flex gap-3 md:gap-6">
+            <div className="rounded-[12px]  bg-white drop-shadow-2xl md:w-[100%] xl:w-[730px] w-[324px]   mt-4 md:h-[230px] h-[114px] px-2 py-2 flex gap-3 md:gap-6">
               <div className="hidden md:block">
                 <img
                   src={Newsimage}
@@ -115,7 +115,7 @@ const News = () => {
                 </span>
               </div>
             </div>
-            <button className="bg-primary mt-[1.1rem] md:hidden hidden xl:block text-white py-4 rounded-[12px] text-[18px] font-semibold md:mx-auto xl:w-[100%]">
+            <button className="bg-primary mt-[1.65rem] md:hidden hidden xl:block text-white py-4 rounded-[12px] text-[18px] font-semibold md:mx-auto xl:w-[100%]">
               More news
             </button>
           </div>
@@ -127,7 +127,7 @@ const News = () => {
             <h1 className="font-bold md:text-[24px] text-[18px] mb-1">
               UPCOMING EVENTS
             </h1>
-            <hr className="xl:w-[14%] w-[12%] md:w-[5%] border-2 border-primary mb-8" />
+            <hr className="xl:w-[14%] w-[12%] md:w-[5%] border-2 border-primary mb-6" />
 
             <div className="bg-white shadow-xl md:hidden hidden xl:flex rounded-[12px] h-[367px] w-[328px]">
               <div className="px-2 py-2">
@@ -204,7 +204,7 @@ const News = () => {
               View more upcoming events
             </button>
 
-            <div className="bg-white shadow-xl md:hidden hidden xl:flex rounded-[12px] mt-6 h-[367px] w-[328px]">
+            <div className="bg-white shadow-xl md:hidden hidden xl:flex rounded-[12px] mt-2 h-[367px] w-[328px]">
               <div className="px-2 py-2">
                 <img src={Newsimage} alt="" className="rounded-md" />
                 <div className="flex flex-col px-5 mt-6">
