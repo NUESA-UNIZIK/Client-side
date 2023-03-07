@@ -6,6 +6,7 @@ import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 import Navmobile from "../../components/Header/Navmobile";
+import Footer from "../../components/Footer/Footer";
 
 const Signup = () => {
   const [mobileNav, setMobileNav] = useState(false);
@@ -166,6 +167,7 @@ const Signup = () => {
         </form>
       </div>
       <p className="text-center mb-8">Already have an account? <Link to="/login" className="text-primary">Sign in</Link></p>
+      <Footer/>
     </div>
   );
 };

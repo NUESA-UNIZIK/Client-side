@@ -6,6 +6,7 @@ import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 import Navmobile from "../../components/Header/Navmobile";
+import Footer from "../../components/Footer/Footer";
 
 
 const Login = () => {
@@ -86,6 +87,7 @@ const Login = () => {
       </form>
     </div>
     <p className="text-center mb-8">Don't have an account? <Link to="/register" className="text-primary">Sign up</Link></p>
+    <Footer/>
   </div>
   )
 }

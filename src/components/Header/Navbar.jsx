@@ -74,11 +74,11 @@ const Navbar = () => {
             >
               NEWS/EVENTS
             </Link>
-            <Link to="">
+            {/* <Link to="">
               <li className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">
                 ADMISSION
               </li>
-            </Link>
+            </Link> */}
             <Link to="/achievement">
               <li className="bg-secondary/[44%] font-semibold px-4 py-2 rounded-md text-[16px]">
                 ACHIEVEMENTS
