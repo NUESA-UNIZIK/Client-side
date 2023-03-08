@@ -14,6 +14,7 @@ import  {Staff}  from "./pages/Staff/Staff";
 import { FEG } from "./pages/Courses/FEG201";
 import { Setting } from "./pages/Setting/setting";
 import Achievementsscreen from "./pages/Achievements/Achievementsscreen";
+import Aboutpresident from "./components/Aboutpresident/Aboutpresident";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
          <Route path="/settings" element={<Setting/>} />
          <Route path="/register" element={<Signup/>} />
          <Route path="/login" element={<Login/>} />
+         <Route path="/aboutpresident" element={<Aboutpresident/>} />
         </Routes>
       </Router>
     </>

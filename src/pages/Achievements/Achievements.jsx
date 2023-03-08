@@ -10,14 +10,16 @@ import Navmobile from "../../components/Header/Navmobile";
 import Footer from "../../components/Footer/Footer";
 
 import { articles } from "../../data";
+import Navbar2 from "../../components/Header/Navbar2";
 
 const Achievements = () => {
   const [mobileNav, setMobileNav] = useState(false);
   return (
     <>
+    <Navbar2/>
       <div className="text-center">
-        <div className="text-center md:py-[80px] py-[20px] bg-cover  h-[85px]  bg-[url('/src/assets/heroimage.svg')] fixed left-0 right-0 top-0">
-          <h1 className="md:text-[48px] -mt-8 hidden md:block text-[24px] text-white uppercase relative  font-[700] ">
+        <div className="text-center md:py-[80px] md:mt-[6.3rem] mt-[4rem] py-[20px] bg-cover  h-[85px]  bg-[url('/src/assets/heroimage.svg')]">
+          <h1 className="md:text-[48px] md:-mt-8 hidden md:block text-[24px] text-white uppercase  font-[700] ">
             ACHIEVEMENTS
           </h1>
           <div className="flex px-6 items-center justify-between">
@@ -42,7 +44,7 @@ const Achievements = () => {
           </div>
         </div>
 
-        <div className="flex flex-row my-[30px] items-center align-center justify-center md:mt-[170px] mt-[100px]   gap-[4px] ">
+        <div className="flex flex-row my-[30px] items-center align-center justify-center md:mt-[30px] mt-[20px]   gap-[4px] ">
           <Link
             to="/"
             href=""

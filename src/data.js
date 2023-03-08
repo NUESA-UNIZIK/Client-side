@@ -160,3 +160,121 @@ export const achievements = [
     image2: "./assets/Achievementimage.svg",
   },
 ];
+
+export const executives = {
+  contents : [
+    {
+      executiveslider: [
+        {
+          _id: "1",
+          image: "../src/assets/executiveimg.png",
+          name: "Comr.Akpan Emmanuel",
+          postion:"President",
+          department: "Chemical Engineering",
+          phonenum:"08098240363",
+          email: "admins@gmail.com"
+        },
+        {
+          _id: "1",
+          image: "../src/assets/executiveimg.png",
+          name: "Comr.Akpan Emmanuel",
+          postion:"President",
+          department: "Chemical Engineering",
+          phonenum:"08098240363",
+          email: "admins@gmail.com"
+        },
+      ]
+    },
+    {
+      executiveslider: [
+        {
+          _id: "1",
+          image: "../src/assets/executiveimg.png",
+          name: "Comr.Akpan Emmanuel",
+          postion:"President",
+          department: "Chemical Engineering",
+          phonenum:"08098240363",
+          email: "admins@gmail.com"
+        },
+        {
+          _id: "1",
+          image: "../src/assets/executiveimg.png",
+          name: "Comr.Akpan Emmanuel",
+          postion:"President",
+          department: "Chemical Engineering",
+          phonenum:"08098240363",
+          email: "admins@gmail.com"
+        },
+      ]
+    },
+    {
+       executiveslider: [
+        {
+          _id: "1",
+          image: "../src/assets/executiveimg.png",
+          name: "Comr.Akpan Emmanuel",
+          postion:"President",
+          department: "Chemical Engineering",
+          phonenum:"08098240363",
+          email: "admins@gmail.com"
+        },
+        {
+          _id: "1",
+          image: "../src/assets/executiveimg.png",
+          name: "Comr.Akpan Emmanuel",
+          postion:"President",
+          department: "Chemical Engineering",
+          phonenum:"08098240363",
+          email: "admins@gmail.com"
+        },
+      ]
+    }
+  ]
+}
+
+export const executivemobie = {
+  contents : [
+    {
+      executiveslider: [
+        {
+          _id: "1",
+          image: "../src/assets/executiveimg.png",
+          name: "Comr.Akpan Emmanuel",
+          postion:"President",
+          department: "Chemical Engineering",
+          phonenum:"08098240363",
+          email: "admins@gmail.com"
+        },
+ 
+      ]
+    },
+    {
+      executiveslider: [
+        {
+          _id: "1",
+          image: "../src/assets/executiveimg.png",
+          name: "Comr.Akpan Emmanuel",
+          postion:"President",
+          department: "Chemical Engineering",
+          phonenum:"08098240363",
+          email: "admins@gmail.com"
+        },
+   
+      ]
+    },
+    {
+       executiveslider: [
+        {
+          _id: "1",
+          image: "../src/assets/executiveimg.png",
+          name: "Comr.Akpan Emmanuel",
+          postion:"President",
+          department: "Chemical Engineering",
+          phonenum:"08098240363",
+          email: "admins@gmail.com"
+        },
+       
+      ]
+    }
+  ]
+}

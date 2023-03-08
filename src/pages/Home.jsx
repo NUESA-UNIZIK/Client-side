@@ -6,6 +6,8 @@ import News from '../components/News/News'
 import Footer from '../components/Footer/Footer'
 import Stats from '../components/Header/Stats'
 import Executives from '../components/Executives/Executives'
+import Executivemobile from '../components/Executives/Executivemobile'
+import Aboutcomponent from '../components/Aboutpresident/Aboutcomponent'
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
       <About/>
       <News/>
       <Executives/>
+      <Executivemobile/>
+      <Aboutcomponent/>
       <Footer/>
     </div>
   )

@@ -20,7 +20,7 @@ const Achievementsscreen = () => {
   return (
     <>
       <div className="text-center">
-        <div className="text-center md:py-[80px] py-[20px] bg-cover  h-[85px]  bg-[url('/src/assets/circuitlines.jpg')] fixed left-0 right-0 top-0">
+        <div className="text-center md:py-[80px] py-[20px] bg-cover  h-[85px]  bg-[url('/src/assets/heroimage.svg')] fixed left-0 right-0 top-0">
           <h1 className="md:text-[48px] -mt-8 hidden md:block text-[24px] text-white uppercase relative  font-[700] ">
             ACHIEVEMENTS
           </h1>
