@@ -5,15 +5,17 @@ import { IoIosArrowForward } from "react-icons/io";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
-import Navmobile from "../../components/Header/Navmobile";
-import Footer from "../../components/Footer/Footer";
+import Navmobile from "../../Homepage/Header/Navmobile";
+import Footer from "../../Homepage/Footer/Footer";
+import Navbar2 from "../../Homepage/Header/Navbar2";
 
 const Signup = () => {
   const [mobileNav, setMobileNav] = useState(false);
 
   return (
     <div className="mx-auto">
-      <div className="text-center md:py-[80px] py-[20px] bg-cover  h-[85px]  bg-[url('/src/assets/heroimage.svg')] fixed left-0 right-0 top-0">
+      <Navbar2/>
+      <div className="text-center md:py-[80px] py-[20px] md:mt-[6.3rem] mt-[4rem] bg-cover  h-[85px]  bg-[url('/src/assets/heroimage.svg')]">
         <h1 className="md:text-[48px] -mt-8 hidden md:block text-[24px] text-white uppercase relative  font-[700] ">
           Create Account
         </h1>
@@ -23,22 +25,10 @@ const Signup = () => {
               Create Account
             </h1>
           </div>
-          <div
-            onClick={() => setMobileNav(!mobileNav)}
-            className="lg:hidden md:text-5xl text-2xl lg:text-3xl text-white cursor-pointer"
-          >
-            {mobileNav ? <CgClose /> : <HiOutlineMenuAlt1 />}
-          </div>
         </div>
-        <div
-          className={`${
-            mobileNav ? "left-0" : "-left-full"
-          } lg:hidden fixed bottom-0 w-[80%] max-w-xs h-screen transition-all`}
-        >
-          <Navmobile />
-        </div>
+       
       </div>
-      <div className="flex flex-row my-[30px] items-center align-center justify-center md:mt-[170px] mt-[100px]   gap-[4px] ">
+      <div className="flex flex-row my-[30px] items-center align-center justify-center md:mt-[30px] mt-[20px]   gap-[4px] ">
         <Link
           to="/"
           href=""
@@ -58,7 +48,7 @@ const Signup = () => {
         </Link>
       </div>
       <div className="justify-center mx-auto text-center md:w-[352px] h-[588px] md:shadow-2xl md:border px-2 md:px-0 border-solid rounded-md md:mb-8 mt-16">
-        <form action="" >
+        <form action="">
           <div className="px-6 mt-4 text-start">
             <label htmlFor="" className="text-end font-semibold">
               Username
@@ -119,22 +109,22 @@ const Signup = () => {
               </select>{" "}
             </div>
 
-
             <div>
               <label htmlFor="" className="text-end font-semibold">
-               Level
+                Level
               </label>
               <select
-              name="levl"
-              id="level"
-                className="md:w-[106px] w-[96px] h-[44px] rounded-[8px] focus:outline-none  mt-2 bg-[#F5F2ED]">
-              <option value=""></option>
-              <option value="100">100</option>
-              <option value="200">200</option>
-              <option value="300">300</option>
-              <option value="400">400</option>
-              <option value="500">500</option>
-            </select>
+                name="levl"
+                id="level"
+                className="md:w-[106px] w-[96px] h-[44px] rounded-[8px] focus:outline-none  mt-2 bg-[#F5F2ED]"
+              >
+                <option value=""></option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="300">300</option>
+                <option value="400">400</option>
+                <option value="500">500</option>
+              </select>
             </div>
           </div>
 
@@ -162,12 +152,19 @@ const Signup = () => {
             <button
               type="submit"
               className="w-[100%] h-[44px] rounded-[8px] font-bold focus:outline-none px-4 mt-2 bg-black text-white"
-            >Create an account</button>
+            >
+              Create an account
+            </button>
           </div>
         </form>
       </div>
-      <p className="text-center mb-8">Already have an account? <Link to="/login" className="text-primary">Sign in</Link></p>
-      <Footer/>
+      <p className="text-center mb-8">
+        Already have an account?{" "}
+        <Link to="/login" className="text-primary">
+          Sign in
+        </Link>
+      </p>
+     <Footer/>
     </div>
   );
 };

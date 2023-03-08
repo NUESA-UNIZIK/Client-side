@@ -14,7 +14,7 @@ import  {Staff}  from "./pages/Staff/Staff";
 import { FEG } from "./pages/Courses/FEG201";
 import { Setting } from "./pages/Setting/setting";
 import Achievementsscreen from "./pages/Achievements/Achievementsscreen";
-import Aboutpresident from "./components/Aboutpresident/Aboutpresident";
+import Aboutpresident from "./Homepage/Aboutpresident/Aboutpresident";
 
 
 function App() {

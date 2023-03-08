@@ -6,11 +6,11 @@ import { CgClose } from "react-icons/cg";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import Achievementimag from '../../assets/Achievementimage.svg'
 
-import Navmobile from "../../components/Header/Navmobile";
-import Footer from "../../components/Footer/Footer";
+import Navmobile from "../../Homepage/Header/Navmobile";
+import Footer from "../../Homepage/Footer/Footer";
 
 import { articles } from "../../data";
-import Navbar2 from "../../components/Header/Navbar2";
+import Navbar2 from "../../Homepage/Header/Navbar2";
 
 const Achievements = () => {
   const [mobileNav, setMobileNav] = useState(false);

@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from '../components/Header/Navbar'
-import Hero from '../components/Header/Hero'
-import About from '../components/About/About'
-import News from '../components/News/News'
-import Footer from '../components/Footer/Footer'
-import Stats from '../components/Header/Stats'
-import Executives from '../components/Executives/Executives'
-import Executivemobile from '../components/Executives/Executivemobile'
-import Aboutcomponent from '../components/Aboutpresident/Aboutcomponent'
+import Navbar from '../Homepage/Header/Navbar'
+import Hero from '../Homepage/Header/Hero'
+import About from '../Homepage/About/About'
+import News from '../Homepage/News/News'
+import Footer from '../Homepage/Footer/Footer'
+import Stats from '../Homepage/Header/Stats'
+import Executives from '../Homepage/Executives/Executives'
+import Executivemobile from '../Homepage/Executives/Executivemobile'
+import Aboutcomponent from '../Homepage/Aboutpresident/Aboutcomponent'
 
 const Home = () => {
   return (
