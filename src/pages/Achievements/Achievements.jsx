@@ -22,26 +22,6 @@ const Achievements = () => {
           <h1 className="md:text-[48px] md:-mt-8 hidden md:block text-[24px] text-white uppercase  font-[700] ">
             ACHIEVEMENTS
           </h1>
-          <div className="flex px-6 items-center justify-between">
-            <div className="lg:hidden">
-              <h1 className="md:text-[48px] text-[24px] text-white uppercase relative  font-[700] ">
-                ACHIEVEMENTS
-              </h1>
-            </div>
-            <div
-              onClick={() => setMobileNav(!mobileNav)}
-              className="lg:hidden md:text-5xl text-2xl lg:text-3xl text-white cursor-pointer"
-            >
-              {mobileNav ? <CgClose /> : <HiOutlineMenuAlt1 />}
-            </div>
-          </div>
-          <div
-            className={`${
-              mobileNav ? "left-0" : "-left-full"
-            } lg:hidden fixed bottom-0 w-[80%] max-w-xs h-screen transition-all`}
-          >
-            <Navmobile />
-          </div>
         </div>
 
         <div className="flex flex-row my-[30px] items-center align-center justify-center md:mt-[30px] mt-[20px]   gap-[4px] ">
