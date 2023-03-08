@@ -1,3 +1,5 @@
+import Executiveimage from "./assets/executiveimg.png"
+
 
 export const articles = [
   {
@@ -167,7 +169,7 @@ export const executives = {
       executiveslider: [
         {
           _id: "1",
-          image: "../src/assets/executiveimg.png",
+          image: Executiveimage,
           name: "Comr.Akpan Emmanuel",
           postion:"President",
           department: "Chemical Engineering",
@@ -176,7 +178,7 @@ export const executives = {
         },
         {
           _id: "1",
-          image: "../src/assets/executiveimg.png",
+          image:Executiveimage,
           name: "Comr.Akpan Emmanuel",
           postion:"President",
           department: "Chemical Engineering",
@@ -189,7 +191,7 @@ export const executives = {
       executiveslider: [
         {
           _id: "1",
-          image: "../src/assets/executiveimg.png",
+          image: Executiveimage,
           name: "Comr.Akpan Emmanuel",
           postion:"President",
           department: "Chemical Engineering",
@@ -198,7 +200,7 @@ export const executives = {
         },
         {
           _id: "1",
-          image: "../src/assets/executiveimg.png",
+          image: Executiveimage,
           name: "Comr.Akpan Emmanuel",
           postion:"President",
           department: "Chemical Engineering",
@@ -211,7 +213,7 @@ export const executives = {
        executiveslider: [
         {
           _id: "1",
-          image: "../src/assets/executiveimg.png",
+          image: Executiveimage,
           name: "Comr.Akpan Emmanuel",
           postion:"President",
           department: "Chemical Engineering",
@@ -220,7 +222,7 @@ export const executives = {
         },
         {
           _id: "1",
-          image: "../src/assets/executiveimg.png",
+          image: Executiveimage,
           name: "Comr.Akpan Emmanuel",
           postion:"President",
           department: "Chemical Engineering",
@@ -238,7 +240,7 @@ export const executivemobie = {
       executiveslider: [
         {
           _id: "1",
-          image: "../src/assets/executiveimg.png",
+          image: Executiveimage,
           name: "Comr.Akpan Emmanuel",
           postion:"President",
           department: "Chemical Engineering",
@@ -252,7 +254,7 @@ export const executivemobie = {
       executiveslider: [
         {
           _id: "1",
-          image: "../src/assets/executiveimg.png",
+          image: Executiveimage,
           name: "Comr.Akpan Emmanuel",
           postion:"President",
           department: "Chemical Engineering",
@@ -266,7 +268,7 @@ export const executivemobie = {
        executiveslider: [
         {
           _id: "1",
-          image: "../src/assets/executiveimg.png",
+          image: Executiveimage,
           name: "Comr.Akpan Emmanuel",
           postion:"President",
           department: "Chemical Engineering",
