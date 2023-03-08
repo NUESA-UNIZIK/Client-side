@@ -64,16 +64,16 @@ export const Gallery = () => {
           </Link>
         </div>
       </div>
-      <div className=" px-[20px] py-[30px]">
-        <div className="flex md:gap-[50px] gap-[20px]  flex-row justify-center items-center align-center">
-          <IoIosArrowBack onClick={handPrevClick} className="font-[500] text-[40px] "/>
+      <div className=" px-[30px] py-[30px]">
+        <div className="flex md:gap-[50px]   flex-row justify-center items-center align-center">
+          <IoIosArrowBack onClick={handPrevClick} className="font-[500] text-[30px] "/>
           <img
             className=" "
             src={picSrc.img}
             alt=""
             srcset=""
           />
-          <IoIosArrowForward onClick={handleNextClick} className="font-[500] text-[40px] " />
+          <IoIosArrowForward onClick={handleNextClick} className="font-[500] text-[30px] " />
         </div>
         <div className="flex  justify-center my-[20px]  items-center">
           <p className=" text-[16px] leading-[24px] text-center max-w-[500px]  font-[400] ">

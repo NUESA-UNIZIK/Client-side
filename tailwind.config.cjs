@@ -28,7 +28,9 @@ module.exports = {
         darkest: "#1E1307",
         readmore: "#092E76",
         buttonborder: "#E3D3C0",
-        transparent: "rgba(0, 0, 0, .6)"
+        transparent: "rgba(0, 0, 0, .6)",
+        light: "F5F5F5",
+        white: "#fff"
       },
       backgroundImage: {
         pattern: "url('/src/assets/heroimage.svg')",
