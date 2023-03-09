@@ -38,11 +38,11 @@ export const FacultyBio = () => {
         <div className="flex flex-col xl:flex-row px-[30px] align-center justify-center xl:justify-around  gap-[40px]">
           <div className=" flex flex-col justify-around  xl:max-w-[701px] ">
             <div className="flex justify-center flex-col align-start gap-[16px] ">
-              <h1 className="text-[24px] font-[700] leading-[29.05px] uppercase">
+              <h1 className="lg:text-[20px] text-[14px] font-[700] leading-[29.05px] uppercase">
                 History
               </h1>
               <div>
-                <p className="leading-[24px] font-[400] flex flex-col gap-[20px] text-[16px] ">
+                <p className="leading-[24px] font-[400] flex flex-col gap-[20px] text-[14px] lg:text-[16px] ">
                   <span>
                   Nnamdi Azikiwe University has a strong Faculty of Engineering,
                   which started at the inception of the University in 1992. The
@@ -50,7 +50,7 @@ export const FacultyBio = () => {
                   Faculty of Engineering in the country.
                   </span>
                   <span>
-                 <h1 className="text-[20px] font-[700] my-[10px] text-darkest ">Philosophy of the
+                 <h1 className="lg:text-[20px] text-[14px] font-[700] my-[10px] text-darkest ">Philosophy of the
                   Faculty </h1> 
                   To achieve the goals and objectives of the National
                   Policy on Industrialization and self reliance, the Faculty of
