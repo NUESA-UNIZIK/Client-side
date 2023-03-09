@@ -14,7 +14,7 @@ export const OnlyEvent = () => {
             <img
               src={img}
               alt="news"
-              className="w-[150px] rounded lg:w-[100%] "
+              className="w-[110px] lg:h-[100%] h-[110px] rounded lg:w-[100%] "
             />
             <div className="flex flex-col items-start gap-[22px max-w-[428px]">
               <div className="flex flex-col gap-[5px] p-0 ">
@@ -24,7 +24,7 @@ export const OnlyEvent = () => {
                 <span className="lg:text-[14px] text-[10px] font-[700] leading-[150%] text-[#888888] ">
                   13th Feb 2023
                 </span>
-                <p className="font-[400] text-[12px] lg:text-[16px] text-[#000000] ">
+                <p className="font-[400] text-[10px] lg:text-[16px] text-[#000000] ">
                   Omnis maiores velit culpa sed corporis cum exercitationem sit
                   eum. Ea veritatis et nihil corporis nobis rem ratione quia
                   nemo.
