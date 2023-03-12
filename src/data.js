@@ -5,6 +5,7 @@ import DOS1 from './assets/DOS.jpg'
 import Asstsecgen from './assets/Asstsecgen.jpg'
 import Treasurerimage from './assets/Treasurer.jpeg'
 import PROimage from './assets/PRO.jpeg'
+import DOS2IMAGE from './assets/DOS2.jpeg'
 
 
 export const articles = [
@@ -285,12 +286,12 @@ export const executives = {
   executiveslider: [
    {
      _id: "1",
-     image: Executiveimage,
-     name: "Comr.Akpan Emmanuel",
+     image: DOS2IMAGE,
+     name: "Comr.Awa kalu Goodness",
      postion:"Director of Social 2",
      department: "Chemical Engineering",
-     phonenum:"08098240363",
-     email: "admins@gmail.com"
+     phonenum:"07026016231",
+     email: "Awagoodness64@gmail"
    },
  ]
 }
