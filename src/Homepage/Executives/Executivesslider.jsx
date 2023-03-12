@@ -36,7 +36,7 @@ const Executiveslider = () => {
                   >
                     <div className='flex items-start gap-[37px]'>
                       <div>
-                        <img src={items.image} alt="" className='w-[92px] border border-solid rounded-full border-[black]' />
+                        <img src={items.image} alt="" className='w-[92px] executiveimage border border-solid rounded-full' />
                       </div>
 
                       <div>

@@ -44,29 +44,29 @@ export const FacultyBio = () => {
               <div>
                 <p className="leading-[24px] font-[400] flex flex-col gap-[20px] text-[14px] lg:text-[16px] ">
                   <span>
-                  Nnamdi Azikiwe University has a strong Faculty of Engineering,
-                  which started at the inception of the University in 1992. The
-                  Faculty is being developed to acquire the status of a leading
-                  Faculty of Engineering in the country.
+                    Nnamdi Azikiwe University has a strong Faculty of
+                    Engineering, which started at the inception of the
+                    University in 1992. The Faculty is being developed to
+                    acquire the status of a leading Faculty of Engineering in
+                    the country.
                   </span>
                   <span>
-                 <h1 className="lg:text-[20px] text-[14px] font-[700] my-[10px] text-darkest ">Philosophy of the
-                  Faculty </h1> 
-                  To achieve the goals and objectives of the National
-                  Policy on Industrialization and self reliance, the Faculty of
-                  Engineering and Technology is geared toward a. The development
-                  of indigenous manpower through practice of engineering and
-                  industrial training b. The development of a broader-based
-                  practical application of Engineering, Technology and
-                  Manufacturing processes c. New frontiers in Engineering
-                  education, research and development The Faculty’s general
-                  goals are the production of graduates of high academic quality
-                  and adequate practical background for self employment and
-                  global industrialization.
+                    <h1 className="lg:text-[20px] text-[14px] font-[700] my-[10px] text-darkest ">
+                      Philosophy of the Faculty{" "}
+                    </h1>
+                    To achieve the goals and objectives of the National Policy
+                    on Industrialization and self reliance, the Faculty of
+                    Engineering and Technology is geared toward a. The
+                    development of indigenous manpower through practice of
+                    engineering and industrial training b. The development of a
+                    broader-based practical application of Engineering,
+                    Technology and Manufacturing processes c. New frontiers in
+                    Engineering education, research and development The
+                    Faculty’s general goals are the production of graduates of
+                    high academic quality and adequate practical background for
+                    self employment and global industrialization.
                   </span>
-
                 </p>
-                
               </div>
             </div>
             <div>
@@ -83,8 +83,16 @@ export const FacultyBio = () => {
               </div>
               <div className="flex flex-row items-center  justify-center my-[20px]  gap-[30px] ">
                 <div className="grid md:grid-cols-4 lg:flex gap-[20px] grid-cols-3 overflow-x-hidden w-[699px]">
-                  <img src={newspaper} className="lg:w-[170px] rounded" alt="" />
-                  <img src={newspaper} className="lg:w-[170px] rounded" alt="" />
+                  <img
+                    src={newspaper}
+                    className="lg:w-[170px] rounded"
+                    alt=""
+                  />
+                  <img
+                    src={newspaper}
+                    className="lg:w-[170px] rounded"
+                    alt=""
+                  />
                   <img
                     src={newspaper}
                     className="lg:w-[170px] rounded"
@@ -100,7 +108,7 @@ export const FacultyBio = () => {
                 </div>
 
                 <p className="font-[700] text-[16px] hidden xl:block  cursor-pointer">
-                  <IoIosArrowForward  className="text-[30px]"/>
+                  <IoIosArrowForward className="text-[30px]" />
                 </p>
               </div>
             </div>
@@ -111,6 +119,18 @@ export const FacultyBio = () => {
             </h1>
             <div>
               <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
+                Agric and Bio Resources Engineering
+              </p>
+              <hr />
+              <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
+                Chemical Engineering
+              </p>
+              <hr />
+              <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
+                Civil Engineering
+              </p>
+              <hr />
+              <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
                 Electrical Engineering
               </p>
               <hr />
@@ -119,19 +139,7 @@ export const FacultyBio = () => {
               </p>
               <hr />
               <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
-                Civil Engineering
-              </p>
-              <hr />
-              <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
-                Metallurgical and Material Engineering
-              </p>
-              <hr />
-              <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
                 Industrial and Production Engineering
-              </p>
-              <hr />
-              <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
-                Chemical Engineering
               </p>
               <hr />
               <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
@@ -139,15 +147,15 @@ export const FacultyBio = () => {
               </p>
               <hr />
               <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
-                Polymer and Textile Engineering
-              </p>
-              <hr />
-              <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
-                Agric and Bio Resources Engineering
+                Metallurgical and Material Engineering
               </p>
               <hr />
               <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
                 Petroleum Engineering
+              </p>
+              <hr />
+              <p className="border-[#E5E3DF] p-[10px]  text-[16px] ">
+                Polymer and Textile Engineering
               </p>
               <hr />
             </div>
@@ -157,4 +165,3 @@ export const FacultyBio = () => {
     </>
   );
 };
-

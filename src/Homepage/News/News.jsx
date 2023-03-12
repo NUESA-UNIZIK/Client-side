@@ -1,6 +1,7 @@
 import React from "react";
 import Newsimage from "../../assets/newsimage.svg";
 import Newsimagemobile from "../../assets/Frame 56.svg";
+import { Link } from "react-router-dom";
 
 const News = () => {
   return (
@@ -115,13 +116,17 @@ const News = () => {
                 </span>
               </div>
             </div>
-            <button className="bg-primary mt-[1.65rem] md:hidden hidden xl:block text-white py-4 rounded-[12px] text-[18px] font-semibold md:mx-auto xl:w-[100%]">
+            <Link to='/newsevent'>
+              <button className="bg-primary mt-[1.65rem] md:hidden hidden xl:block text-white py-4 rounded-[12px] text-[18px] font-semibold md:mx-auto xl:w-[100%]">
+                More news
+              </button>
+            </Link>
+          </div>
+          <Link to='/newsevent'>
+            <button className="bg-primary mt-[1.1rem] xl:hidden md:block text-white py-4 rounded-[12px] md:text-[18px] text-[14px] font-semibold md:mx-auto md:w-[30%] mx-auto w-[50%]">
               More news
             </button>
-          </div>
-          <button className="bg-primary mt-[1.1rem] xl:hidden md:block text-white py-4 rounded-[12px] md:text-[18px] text-[14px] font-semibold md:mx-auto md:w-[30%] mx-auto w-[50%]">
-            More news
-          </button>
+          </Link>
 
           <div className="mt-6">
             <h1 className="font-bold md:text-[24px] text-[18px] mb-1">
@@ -200,9 +205,11 @@ const News = () => {
               </div>
               <hr className="w-[100%]" />
             </div>
-            <button className="mt-6 px-[8px] py-[12px] xl:hidden md:block md:mx-auto mx-[3rem] border text-primary rounded-[12px] font-semibold text-[14px] md:text-[18px] border-solid border-primary">
-              View more upcoming events
-            </button>
+            <Link to='/newsevent'>
+              <button className="mt-6 px-[8px] py-[12px] xl:hidden md:block md:mx-auto mx-[3rem] border text-primary rounded-[12px] font-semibold text-[14px] md:text-[18px] border-solid border-primary">
+                View more upcoming events
+              </button>
+            </Link>
 
             <div className="bg-white shadow-xl md:hidden hidden xl:flex rounded-[12px] mt-2 h-[367px] w-[328px]">
               <div className="px-2 py-2">
@@ -218,9 +225,11 @@ const News = () => {
                 </div>
               </div>
             </div>
-            <button className="mt-3 py-4 md:hidden hidden xl:flex border text-primary rounded-[12px] font-semibold text-[18px] border-solid border-primary px-10">
-              View more upcoming events
-            </button>
+            <Link to='/newsevent'>
+              <button className="mt-3 py-4 md:hidden hidden xl:flex border text-primary rounded-[12px] font-semibold text-[18px] border-solid border-primary px-10">
+                View more upcoming events
+              </button>
+            </Link>
           </div>
         </div>
       </div>

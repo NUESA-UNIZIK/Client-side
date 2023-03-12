@@ -7,7 +7,7 @@ const Stats = () => {
   return (
     <div className="lg:ml-[3.5rem]  md:mt-[2rem] lg:container lg:max-w-[90%] mx-auto p-12 lg:mt-[3rem] rounded-[20px]">
       <div className="text-center relative -mt-12 md:-mt-[6rem] mb-12 ">
-        <h1 className="md:text-[24px] font-bold mb-1">NUESA NATIONAL BODY</h1>
+        <h1 className="md:text-[24px] font-bold mb-1">NUESA UNIZIK CHAPTER</h1>
         <hr className="md:w-[29%] w-[73%] absolute md:left-[23rem] left-[2rem] border-2 border-primary mb-8" />
       </div>
       <div className="md:flex md:flex-row -mx-8 md:mx-0 flex-col md:gap-[20px]">
@@ -15,7 +15,7 @@ const Stats = () => {
           <img
             src={Book}
             alt=""
-            className="md:w-[73px] w-[45px] mx-[8rem]  my-[4rem] xl:mx-[7rem] md:mx-[4rem] h-[100px]"
+            className="md:w-[73px]  w-[45px] mx-[8rem]  my-[4rem] xl:mx-[7rem] md:mx-[4rem] h-[100px]"
           />
           <div className="-mt-16">
             <h1 className="font-[700] md:text-[24px] mb-2">ABOUT NUESA</h1>

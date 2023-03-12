@@ -1,4 +1,10 @@
-import Executiveimage from "./assets/executiveimg.png"
+import Executiveimage from "./assets/president.jpg"
+import Vpadmin from './assets/Vpadmin.jpeg'
+import Vpmembership from './assets/Vpmembership.jpeg'
+import DOS1 from './assets/DOS.jpg'
+import Asstsecgen from './assets/Asstsecgen.jpg'
+import Treasurerimage from './assets/Treasurer.jpeg'
+import PROimage from './assets/PRO.jpeg'
 
 
 export const articles = [
@@ -170,20 +176,20 @@ export const executives = {
         {
           _id: "1",
           image: Executiveimage,
-          name: "Comr.Akpan Emmanuel",
+          name: "Comr.Akpa Emmanuel",
           postion:"President",
           department: "Chemical Engineering",
-          phonenum:"08098240363",
+          phonenum:"08180010995",
           email: "admins@gmail.com"
         },
         {
           _id: "1",
-          image:Executiveimage,
-          name: "Comr.Akpan Emmanuel",
-          postion:"President",
-          department: "Chemical Engineering",
-          phonenum:"08098240363",
-          email: "admins@gmail.com"
+          image:Vpadmin,
+          name: "Comr. Agatha Ijeoma Elechi",
+          postion:"VP admin",
+          department: "Electronics and Computer Engineering",
+          phonenum:"09153639699",
+          email: "agathaelechi@gmail.com"
         },
       ]
     },
@@ -191,18 +197,18 @@ export const executives = {
       executiveslider: [
         {
           _id: "1",
-          image: Executiveimage,
-          name: "Comr.Akpan Emmanuel",
-          postion:"President",
-          department: "Chemical Engineering",
-          phonenum:"08098240363",
-          email: "admins@gmail.com"
+          image: Vpmembership,
+          name: "Comr.Dennis Morningstar Umeano",
+          postion:"VP membership",
+          department: "ELECTRICAL ENGINEERING",
+          phonenum:"09160683010",
+          email: "denchimorningstar@gmail.com"
         },
         {
           _id: "1",
           image: Executiveimage,
           name: "Comr.Akpan Emmanuel",
-          postion:"President",
+          postion:"Sec Gen",
           department: "Chemical Engineering",
           phonenum:"08098240363",
           email: "admins@gmail.com"
@@ -215,22 +221,79 @@ export const executives = {
           _id: "1",
           image: Executiveimage,
           name: "Comr.Akpan Emmanuel",
-          postion:"President",
+          postion:"Financial Secretary",
           department: "Chemical Engineering",
           phonenum:"08098240363",
           email: "admins@gmail.com"
         },
         {
           _id: "1",
-          image: Executiveimage,
-          name: "Comr.Akpan Emmanuel",
-          postion:"President",
-          department: "Chemical Engineering",
-          phonenum:"08098240363",
-          email: "admins@gmail.com"
+          image: Treasurerimage,
+          name: "Comr.Obi Eric Somtochukwu",
+          postion:"Treasurer",
+          department: "Polymer and Textile Engineering",
+          phonenum:"08165222643",
+          email: "obie13642@gmail.com"
         },
       ]
-    }
+    },
+    {
+      executiveslider: [
+       {
+         _id: "1",
+         image: DOS1,
+         name: "Comr.Godwin Joshua Chukwuebuka",
+         postion:"Director of Social 1",
+         department: "Industrial and Production Engineering",
+         phonenum:"08133768918",
+         email: "youngprofessor609@gmail.com"
+       },
+       {
+         _id: "1",
+         image: Executiveimage,
+         name: "Comr.Akpan Emmanuel",
+         postion:"Director of Sports",
+         department: "Chemical Engineering",
+         phonenum:"08098240363",
+         email: "admins@gmail.com"
+       },
+     ]
+   },
+   {
+    executiveslider: [
+     {
+       _id: "1",
+       image: PROimage,
+       name: "Comr.Umeh Uchenna O.",
+       postion:"Public Relation Officer",
+       department: "Civil Engineering",
+       phonenum:"07030291155",
+       email: "lucckysharp@gmail.com"
+     },
+     {
+       _id: "1",
+       image: Asstsecgen,
+       name: "Comr.Umennadike Emmanuel",
+       postion:"Asst Sec Gen",
+       department: "Mechanical Engineering",
+       phonenum:"07030398694",
+       email: "e.umennadike@gmail.com"
+     },
+   ]
+ },
+ {
+  executiveslider: [
+   {
+     _id: "1",
+     image: Executiveimage,
+     name: "Comr.Akpan Emmanuel",
+     postion:"Director of Social 2",
+     department: "Chemical Engineering",
+     phonenum:"08098240363",
+     email: "admins@gmail.com"
+   },
+ ]
+}
   ]
 }
 
@@ -254,12 +317,12 @@ export const executivemobie = {
       executiveslider: [
         {
           _id: "1",
-          image: Executiveimage,
-          name: "Comr.Akpan Emmanuel",
-          postion:"President",
-          department: "Chemical Engineering",
-          phonenum:"08098240363",
-          email: "admins@gmail.com"
+          image:Vpadmin,
+          name: "Comr. Agatha Ijeoma Elechi",
+          postion:"VP admin",
+          department: "Electronics and Computer Engineering",
+          phonenum:"09153639699",
+          email: "agathaelechi@gmail.com"
         },
    
       ]
@@ -268,7 +331,7 @@ export const executivemobie = {
        executiveslider: [
         {
           _id: "1",
-          image: Executiveimage,
+          image: Vpmembership,
           name: "Comr.Akpan Emmanuel",
           postion:"President",
           department: "Chemical Engineering",

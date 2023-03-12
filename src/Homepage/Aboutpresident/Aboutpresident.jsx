@@ -56,7 +56,7 @@ const Aboutpresident = () => {
 
         <div className="md:w-[871px] md:px-0 px-5 mt-4">
           <h1 className="font-semibold  text-[16px] md:text-[1.75rem]">
-            Brief Citation of Akpan Emmanuel, The President Nigerian
+            Brief Citation of Akpa Emmanuel, The President Nigerian
             Universities Engineering Students Association, UNIZIK (NUESA UNIZIK)
           </h1>
           <p className="mt-[16px] text-[14px] md:text-[16px]">

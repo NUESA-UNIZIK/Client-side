@@ -20,7 +20,7 @@ const Aboutcomponent = () => {
 
         <div className="md:w-[667px]">
           <h1 className="font-semibold md:w-[557px] w-[317px] text-[16px] md:text-[20px]">
-            Brief Citation of Akpan Emmanuel, The President Nigerian
+            Brief Citation of Akpa Emmanuel, The President Nigerian
             Universities Engineering Students Association, UNIZIK (NUESA UNIZIK)
           </h1>
           <p className="mt-[16px] text-[16px] md:block hidden">

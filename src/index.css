@@ -6,6 +6,9 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.executiveimage {
+  clip-path: circle(40.5% at 49% 33%);
+}
 
 select {
   -webkit-appearance: none;
