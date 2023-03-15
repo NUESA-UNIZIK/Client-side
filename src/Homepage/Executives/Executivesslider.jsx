@@ -22,7 +22,7 @@ const Executiveslider = () => {
     onSlideChange={() => console.log("slide change")}
     onSwiper={(swiper) => console.log(swiper)}
     navigation={{ clickable: true }}
-    className="productSlider md:flex hidden  min-h-[350px]"
+    className="productSlider  md:flex hidden  min-h-[350px]"
     modules={[Autoplay,Navigation, Pagination]}  autoplay={true}>
       {contents.map((content, index) => {
         return (
@@ -32,7 +32,7 @@ const Executiveslider = () => {
                 return (
                   <div
                     key={index}
-                    className="mt-0 w-[505px] h-[208px] px-6 py-6 border border-solid rounded-md "
+                    className="mt-0 lg:w-[505px] h-[208px] px-6 py-6 xl:border border-solid rounded-md "
                   >
                     <div className='flex items-start gap-[37px]'>
                       <div>

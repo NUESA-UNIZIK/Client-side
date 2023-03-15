@@ -7,12 +7,12 @@ const News = () => {
   return (
     <div className="mt-[5rem] mb-12 md:h-[965px]">
       <div className="xl:mx-[6rem] mx-4">
-        <div className="md:mt-9 xl:flex-row flex flex-col gap-8">
+        <div className="md:mt-9 xl:flex-row flex flex-col gap-3">
           <div className="md:mt-6">
             <h1 className="font-bold md:text-[24px] text-[18px] mb-1">NEWS</h1>
             <hr className="w-[5%] border-2 border-primary" />
 
-            <div className="rounded-[12px]  bg-white drop-shadow-2xl md:w-[100%] xl:w-[730px] w-[314px] mt-8 md:h-[230px] h-[114px] px-2 py-2 flex gap-3 md:gap-6">
+            <div className="rounded-[12px]  bg-white drop-shadow-2xl md:w-[100%] xl:w-[730px] w-[314px] mt-8 md:h-[230px] xl:h-[230px] lg:h-[243px] h-[114px] px-2 py-2 flex gap-3 md:gap-6">
               <div className="hidden md:block">
                 <img
                   src={Newsimage}
@@ -47,7 +47,7 @@ const News = () => {
               </div>
             </div>
 
-            <div className="rounded-[12px]  bg-white drop-shadow-2xl md:w-[100%] xl:w-[730px] w-[314px]   mt-4 md:h-[230px] h-[114px] px-2 py-2 flex gap-3 md:gap-6">
+            <div className="rounded-[12px]  bg-white drop-shadow-2xl md:w-[100%] xl:w-[730px] w-[314px]   mt-4 md:h-[230px] xl:h-[230px] lg:h-[243px] h-[114px] px-2 py-2 flex gap-3 md:gap-6">
               <div className="hidden md:block">
                 <img
                   src={Newsimage}
@@ -82,7 +82,7 @@ const News = () => {
               </div>
             </div>
 
-            <div className="rounded-[12px]  bg-white drop-shadow-2xl md:w-[100%] xl:w-[730px] w-[314px]   mt-4 md:h-[230px] h-[114px] px-2 py-2 flex gap-3 md:gap-6">
+            <div className="rounded-[12px]  bg-white drop-shadow-2xl md:w-[100%] xl:w-[730px] w-[314px]   mt-4 md:h-[230px] h-[114px] xl:h-[230px] lg:h-[243px] px-2 py-2 flex gap-3 md:gap-6">
               <div className="hidden md:block">
                 <img
                   src={Newsimage}
@@ -103,7 +103,7 @@ const News = () => {
                 <span className="md:text-[24px] text-[14px] md:w-[90%] md:mt-4 font-bold">
                   NUESA Inter-Departmental Football Cup kicks off
                 </span>
-                <span className="text-[#888888] font-bold md:mt-0 -mt-2 text-[12px] md:text-[14px]">
+                <span className="text-[#888888] font-bold md:mt-0  -mt-2 text-[12px] md:text-[14px]">
                   Nov 7, 2022
                 </span>
                 <span className="md:w-[98%] hidden md:block">
