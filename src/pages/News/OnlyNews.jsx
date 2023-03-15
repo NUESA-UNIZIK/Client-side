@@ -14,7 +14,7 @@ export const OnlyNews = () => {
             <img
               src={img}
               alt="news"
-              className="w-[100px] lg:h-[100%] h-[70px]   rounded lg:w-[100%] "
+              className="w-[100px] lg:h-[100%] h-[90px]   rounded lg:w-[100%] "
             />
             <div className="flex flex-col items-start gap-[22px max-w-[428px]">
               <div className="flex flex-col gap-[5px] p-0 ">
@@ -45,7 +45,7 @@ export const OnlyNews = () => {
             <img
               src={img}
               alt="news"
-              className="w-[100px] lg:h-[100%] h-[70px]    rounded lg:w-[100%] "
+              className="w-[100px] lg:h-[100%] h-[90px]    rounded lg:w-[100%] "
             />
             <div className="flex flex-col items-start gap-[22px max-w-[428px]">
               <div className="flex flex-col gap-[5px] p-0 ">
@@ -78,7 +78,7 @@ export const OnlyNews = () => {
               <img
                 src={img}
                 alt="news"
-                className="w-[100px] lg:h-[100%] h-[70px]   rounded lg:w-[100%] "
+                className="w-[100px] lg:h-[100%] h-[90px]   rounded lg:w-[100%] "
               />
               <div className="flex flex-col items-start gap-[22px max-w-[428px]">
                 <div className="flex flex-col gap-[5px] p-0 ">
