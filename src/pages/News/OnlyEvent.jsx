@@ -15,7 +15,7 @@ export const OnlyEvent = () => {
               <img
                 src={img}
                 alt="news"
-                className="w-[110px] md:max-h-[100%] h-[100%] rounded md:max-w-[100%] "
+                className="w-[100px] lg:h-[100%] h-[70px]  rounded md:max-w-[100%] "
               />
               <div className="flex flex-row justify-around gap-[20px] items-center">
               <div className="flex flex-col items-start gap-[22px max-w-[428px]">
@@ -56,7 +56,7 @@ export const OnlyEvent = () => {
               <img
                 src={img}
                 alt="news"
-                className="w-[110px] lg:h-[100%] h-[100%] rounded lg:w-[100%] "
+                className="w-[100px] lg:h-[100%] h-[70px]  rounded lg:w-[100%] "
               />
               <div className="flex flex-row justify-around gap-[20px] items-center">
               <div className="flex flex-col items-start gap-[22px max-w-[428px]">
@@ -98,7 +98,7 @@ export const OnlyEvent = () => {
               <img
                 src={img}
                 alt="news"
-                className="w-[110px] lg:h-[100%] h-[100%] rounded lg:w-[100%] "
+                className="w-[100px] lg:h-[100%] h-[70px]  rounded lg:w-[100%] "
               />
               <div className="flex flex-row justify-around gap-[20px] items-center">
               <div className="flex flex-col items-start gap-[22px max-w-[428px]">
