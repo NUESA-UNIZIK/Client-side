@@ -15,19 +15,19 @@ export const OnlyEvent = () => {
               <img
                 src={img}
                 alt="news"
-                className="w-[110px] lg:h-[100%] h-[110px] rounded lg:w-[100%] "
+                className="w-[110px] md:max-h-[100%] h-[110px] rounded md:max-w-[100%] "
               />
               <div className="flex flex-row justify-around gap-[20px] items-center">
               <div className="flex flex-col items-start gap-[22px max-w-[428px]">
             
                 <div className="flex flex-col gap-[5px] p-0 ">
-                  <p className="text-[12px] font-[700]  text-[#0000000] ">
+                  <p className="md:text-[12px] text-[10px] font-[700]  text-[#0000000] ">
                     NUESA Inter-Departmental Football Cup kicks off
                   </p>
-                  <span className="lg:text-[14px] text-[10px] font-[700] leading-[150%] text-[#888888] ">
+                  <span className="md:text-[14px] text-[8px] font-[700] leading-[150%] text-[#888888] ">
                     13th Feb 2023
                   </span>
-                  <p className="font-[400] text-[12px] block md:hidden lg:text-[16px] text-[#000000] ">
+                  <p className="font-[400] text-[10px] sm:text-[12px]  block md:hidden lg:text-[16px] text-[#000000] ">
                 Omnis maiores velit culpa sed corporis cum exercitationem...
                 </p>
                 <p className="font-[400] hidden md:flex text-[12px] lg:text-[16px] text-[#000000] ">
@@ -62,13 +62,13 @@ export const OnlyEvent = () => {
               <div className="flex flex-col items-start gap-[22px max-w-[428px]">
             
                 <div className="flex flex-col gap-[5px] p-0 ">
-                  <p className="text-[12px] font-[700]  text-[#0000000] ">
+                  <p className="md:text-[12px] text-[10px] font-[700]  text-[#0000000] ">
                     NUESA Inter-Departmental Football Cup kicks off
                   </p>
-                  <span className="lg:text-[14px] text-[10px] font-[700] leading-[150%] text-[#888888] ">
+                  <span className="md:text-[14px] text-[8px] font-[700] leading-[150%] text-[#888888] ">
                     13th Feb 2023
                   </span>
-                  <p className="font-[400] text-[12px] block md:hidden lg:text-[16px] text-[#000000] ">
+                  <p className="font-[400] text-[10px] sm:text-[12px] block md:hidden lg:text-[16px] text-[#000000] ">
                 Omnis maiores velit culpa sed corporis cum exercitationem...
                 </p>
                 <p className="font-[400] hidden md:flex text-[12px] lg:text-[16px] text-[#000000] ">
@@ -104,13 +104,13 @@ export const OnlyEvent = () => {
               <div className="flex flex-col items-start gap-[22px max-w-[428px]">
             
                 <div className="flex flex-col gap-[5px] p-0 ">
-                  <p className="text-[12px] font-[700]  text-[#0000000] ">
+                  <p className="md:text-[12px] text-[10px] font-[700]  text-[#0000000] ">
                     NUESA Inter-Departmental Football Cup kicks off
                   </p>
-                  <span className="lg:text-[14px] text-[10px] font-[700] leading-[150%] text-[#888888] ">
+                  <span className="md:text-[14px] text-[8px] font-[700] leading-[150%] text-[#888888] ">
                     13th Feb 2023
                   </span>
-                  <p className="font-[400] text-[12px] block md:hidden lg:text-[16px] text-[#000000] ">
+                  <p className="font-[400] text-[10px] sm:text-[12px] block md:hidden lg:text-[16px] text-[#000000] ">
                 Omnis maiores velit culpa sed corporis cum exercitationem...
                 </p>
                 <p className="font-[400] hidden md:flex text-[12px] lg:text-[16px] text-[#000000] ">
