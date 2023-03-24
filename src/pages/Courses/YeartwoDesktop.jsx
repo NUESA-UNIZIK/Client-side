@@ -12,7 +12,22 @@ export const YeartwoDesktop = () => {
 
           <div className="bg-[#FAF8F8] rounded-[8px] min-w-[300px] py-[12px] px-[16px] gap-[10px] flex flex-row items-center  justify-between ">
             <div className="">
-              <h1 className="font-[700]  text-[#000000] text-[24px] ">
+              <h1 className="font-[400]  text-[#000000] text-[24px] ">
+                FEG 201
+              </h1>
+              <p className="text-[#656565] text-[16px]">
+                Applied Electricity
+              </p>
+            </div>
+            <div className="flex flex-row justify-center gap-[10px]">
+              <span>3CR</span>
+              <IoIosArrowForward />
+            </div>
+          </div>
+
+          <div className="bg-[#FAF8F8] rounded-[8px] min-w-[300px] py-[12px] px-[16px] gap-[10px] flex flex-row items-center justify-between ">
+            <div>
+              <h1 className="font-[700] text-[#000000] text-[14px] md:text-[24px] ">
                 FEG 201
               </h1>
               <p className="text-[#656565] text-[16px]">
@@ -60,22 +75,7 @@ export const YeartwoDesktop = () => {
               <h1 className="font-[700] text-[#000000] text-[24px] ">
                 FEG 201
               </h1>
-              <p className="text-[#656565] text-[16px]">
-                Applied Electricity
-              </p>
-            </div>
-            <div className="flex flex-row justify-center gap-[10px]">
-              <span>3CR</span>
-              <IoIosArrowForward />
-            </div>
-          </div>
-
-          <div className="bg-[#FAF8F8] rounded-[8px] min-w-[300px] py-[12px] px-[16px] gap-[10px] flex flex-row items-center justify-between ">
-            <div>
-              <h1 className="font-[700] text-[#000000] text-[24px] ">
-                FEG 201
-              </h1>
-              <p className="text-[#656565] text-[16px]">
+              <p className="text-[#656565] text-[14px]">
                 Applied Electricity
               </p>
             </div>

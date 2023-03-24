@@ -74,7 +74,7 @@ export const YearTwoCourse = () => {
              </div>}
             </div>
 <div className="flex justify-center flex-col px-[30px] items-center">
-<h1 className=" text-[24px]  font-[700] text-darkest my-[20px] ">
+<h1 className=" text-[16px] md:text-[24px]  font-[700] text-darkest my-[20px] ">
             200L ELECTRONICS & COMPUTER ENGINEERING
           </h1>
 </div>
@@ -86,7 +86,7 @@ export const YearTwoCourse = () => {
       </div>
       <div className="flex flex-row md:hidden justify-center my-[20px]">
       <Link to="/feg"
-              className="text-primary px-[12px] py-[8px]  border font-[700] rounded-[8px]  "
+              className="text-primary px-[12px] py-[8px] text-[14px] border font-[700] rounded-[8px]  "
             >
               Download Resources
             </Link>
